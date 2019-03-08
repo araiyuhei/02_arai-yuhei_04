@@ -1,0 +1,25 @@
+.wrapper{
+    display: flex;
+}
+.letter{
+margin: 50px;
+padding: 10px;
+background-color: rgb(248, 245, 245);
+}
+.pizza{
+    display: flex;  
+}
+
+.jyanken{
+    margin-right:auto
+    background-color: red;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
