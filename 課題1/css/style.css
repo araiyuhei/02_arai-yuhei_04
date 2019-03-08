@@ -1,0 +1,25 @@
+/* ここから下に記述していきましょう */
+
+* {
+  box-sizing: border-box;
+}
+
+/*
+メモ
+css側でコメント機能を使いたいときは
+mac コマンドキー + /(スラッシュ)
+windows コントロールキー + /(スラッシュ)
+
+背景画像
+background: url(xxxx)
+
+文字真ん中
+text-align: center
+
+横並び
+display:flex
+横並びにするときは必ず、display:flexを使ってからじゃないと横並びにならないので注意
+display:flexを使ったあとに、横を制御する[justify-content: xxx]を使ったりする
+
+
+*/
