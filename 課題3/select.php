@@ -1,14 +1,14 @@
 <?php
 //1.  DB接続します xxxにDB名を入れます
 try {
-$pdo = new PDO('mysql:dbname=xxx;charset=utf8;host=localhost','root','');
+$pdo = new PDO('mysql:dbname=a_db;charset=utf8;host=localhost','root','');
 } catch (PDOException $e) {
   exit('データベースに接続できませんでした。'.$e->getMessage());
 }
 
 //２．データ登録SQL作成
 //作ったテーブル名を書く場所  xxxにテーブル名を入れます
-$stmt = $pdo->prepare("SELECT * FROM xxxx");
+$stmt = $pdo->prepare("SELECT * FROM aa");
 $status = $stmt->execute();
 
 //３．データ表示
