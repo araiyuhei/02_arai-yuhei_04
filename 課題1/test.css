@@ -10,6 +10,13 @@
     display: flex;
 }
 
+.imgBox{
+  display: flex;
+}
+
+.imgBox p img{
+  width: 100%;
+}
 .galary{
     display: flex;
     margin-right:auto;
