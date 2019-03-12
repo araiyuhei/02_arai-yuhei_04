@@ -1,3 +1,8 @@
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 .wrapper{
     width: 100%;
 }
@@ -23,6 +28,26 @@
     text-align:center;
 }
 
+form.contact-form {
+  width: 545px;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+.formList {
+  display: flex;
+  justify-content: space-between;
+}
+.galary2 {
+  display: flex;
+  margin-bottom: 51px;
+}
+
+.formList{
+  display: flex;
+}
 
 .letter{
     margin: 50px;
@@ -33,6 +58,10 @@
     display: flex;
     margin-right:auto;
     margin-left: auto;
+    justify-content: space-between;
+}
+.aa{
+  width: 30%;
 }
 .text-center{
     text-align:center;
@@ -42,7 +71,7 @@
 }
 
 .about{
-    height: 100px;
+    /* height: 100px; */
     width:  100%;
 }
 
